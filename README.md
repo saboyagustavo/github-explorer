@@ -4,13 +4,14 @@ _Project build as the first module of Ignite, an educational program by Rocketse
 
 ## React JS Fundamentals
 
-_The React JS Leaning Pathway is lected by [Diego Fernandes](https://www.linkedin.com/in/diego-schell-fernandes/)_
+_The Ignite's React JS Leaning Pathway is lected by [Diego Fernandes](https://www.linkedin.com/in/diego-schell-fernandes/)_
 
 <details>
      <summary><em>Setting up the environment.</em>
      </summary>
 <ol>
 	<li>☑️ Introduction to the module</li>
-    <li> Scaffolding the project</li>
+    <li>☑️ Scaffolding the project</li>
+    <li> Configuring Babel compiler</li>
 </ol>
  </details>
