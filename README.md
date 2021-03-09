@@ -13,6 +13,8 @@ _The Ignite's React JS Leaning Pathway is lected by [Diego Fernandes](https://ww
 	<li>☑️ Introduction to the module</li>
     <li>☑️ Scaffolding the project</li>
     <li>☑️ Configuring Babel compiler</li>
-    <li> Webpack config</li>
+    <li>☑️ Webpack config</li>
+    <li>☑️ The ReactJS structure</li>
+    <li> Serving static HTML files</li>
 </ol>
  </details>
