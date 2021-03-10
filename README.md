@@ -26,7 +26,7 @@ _The Ignite's React JS Leaning Pathway is lected by [Diego Fernandes](https://ww
     <li>☑️ Webpack Dev Server</li>
     <li>☑️ Using source maps</li>
     <li>☑️ Development and production environment</li>
-    <li> Importing CSS files</li>
-    <li> Using SASS</li>
+    <li>☑️ Importing CSS files</li>
+    <li>☑️ Using SASS</li>
 </ol>
  </details>
