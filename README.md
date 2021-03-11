@@ -14,19 +14,32 @@
 _The Ignite's React JS Leaning Pathway is lected by [Diego Fernandes](https://www.linkedin.com/in/diego-schell-fernandes/)_
 
 <details>
-     <summary><strong>Chapter I - Setting up the environment.</strong>
+     <summary>
+        <strong>Chapter I - Setting up the environment</strong>
      </summary>
-<ol>
-	<li>☑️ Introduction to the module</li>
-    <li>☑️ Scaffolding the project</li>
-    <li>☑️ Configuring Babel compiler</li>
-    <li>☑️ Webpack config</li>
-    <li>☑️ The ReactJS structure</li>
-    <li>☑️ Serving static HTML files</li>
-    <li>☑️ Webpack Dev Server</li>
-    <li>☑️ Using source maps</li>
-    <li>☑️ Development and production environment</li>
-    <li>☑️ Importing CSS files</li>
-    <li>☑️ Using SASS</li>
-</ol>
- </details>
+    <ol>
+        <li>☑️ Introduction to the module</li>
+        <li>☑️ Scaffolding the project</li>
+        <li>☑️ Configuring Babel compiler</li>
+        <li>☑️ Webpack config</li>
+        <li>☑️ The ReactJS structure</li>
+        <li>☑️ Serving static HTML files</li>
+        <li>☑️ Webpack Dev Server</li>
+        <li>☑️ Using source maps</li>
+        <li>☑️ Development and production environment</li>
+        <li>☑️ Importing CSS files</li>
+        <li>☑️ Using SASS</li>
+    </ol>
+</details>
+<details>
+     <summary>
+        <strong>Chapter II - Key concepts</strong>
+    </summary>
+    <ol>
+        <li> First React component</li>
+        <li> React properties</li>
+        <li> Component state</li>
+        <li> Immutability in React</li>
+        <li> Webpack Fast Refresh</li>
+    </ol>
+</details>
