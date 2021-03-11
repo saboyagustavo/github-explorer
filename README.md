@@ -36,8 +36,8 @@ _The Ignite's React JS Leaning Pathway is lected by [Diego Fernandes](https://ww
         <strong>Chapter II - Key concepts</strong>
     </summary>
     <ol>
-        <li> First React component</li>
-        <li> React properties</li>
+        <li>☑️ First React component</li>
+        <li>☑️ React properties</li>
         <li> Component state</li>
         <li> Immutability in React</li>
         <li> Webpack Fast Refresh</li>
