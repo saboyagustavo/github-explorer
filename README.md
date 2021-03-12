@@ -9,13 +9,13 @@
   <img alt="Ignite logo" title="Ignite" src="./public/ignite-header.png" width="" />
 </h1>
 
-## React JS Fundamentals
+## Chapter I - ReactJS Essentials
 
 _The Ignite's React JS Leaning Pathway is lected by [Diego Fernandes](https://www.linkedin.com/in/diego-schell-fernandes/)_
 
 <details>
      <summary>
-        <strong>Chapter I - Setting up the environment</strong>
+        <strong>Module I - Setting up the environment</strong>
      </summary>
     <ol>
         <li>☑️ Introduction to the module</li>
@@ -33,7 +33,7 @@ _The Ignite's React JS Leaning Pathway is lected by [Diego Fernandes](https://ww
 </details>
 <details>
      <summary>
-        <strong>Chapter II - Key concepts</strong>
+        <strong>Module II - Key concepts</strong>
     </summary>
     <ol>
         <li>☑️ First React component</li>
@@ -41,5 +41,34 @@ _The Ignite's React JS Leaning Pathway is lected by [Diego Fernandes](https://ww
         <li>☑️ Component state</li>
         <li>☑️ Immutability in React</li>
         <li>☑️ Webpack Fast Refresh</li>
+    </ol>
+</details>
+<details>
+     <summary>
+        <strong>Module III - HTTP Requests concepts</strong>
+    </summary>
+    <ol>
+        <li>☑️ Styling the <code>RepositoryList</code></li>
+        <li> Using <code>useEffect</code></li>
+        <li> Dinamically listing repositories</li>
+    </ol>
+</details>
+<details>
+     <summary>
+        <strong>Module IV - Using TypeScript</strong>
+    </summary>
+    <ol>
+        <li> TypeScript Fundamentals</li>
+        <li> TypeScript in ReactJS</li>
+        <li> Components with TypeScript</li>
+    </ol>
+</details>
+<details>
+     <summary>
+        <strong>Module V - Finishing the App</strong>
+    </summary>
+    <ol>
+        <li> Using React DevTools</li>
+        <li> Chapter Completion</li>
     </ol>
 </details>
