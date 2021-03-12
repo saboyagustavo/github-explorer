@@ -50,7 +50,7 @@ _The Ignite's React JS Leaning Pathway is lected by [Diego Fernandes](https://ww
     <ol>
         <li>☑️ Styling the <code>RepositoryList</code></li>
         <li>☑️ Using <code>useEffect</code></li>
-        <li> Dinamically listing repositories</li>
+        <li>☑️ Dinamically listing repositories</li>
     </ol>
 </details>
 <details>
