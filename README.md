@@ -58,7 +58,7 @@ _The Ignite's React JS Leaning Pathway is lected by [Diego Fernandes](https://ww
         <strong>Module IV - Using TypeScript</strong>
     </summary>
     <ol>
-        <li> TypeScript Fundamentals</li>
+        <li>☑️ TypeScript Fundamentals</li>
         <li> TypeScript in ReactJS</li>
         <li> Components with TypeScript</li>
     </ol>
