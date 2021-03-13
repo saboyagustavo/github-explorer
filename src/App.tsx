@@ -1,4 +1,4 @@
-import { RepositoryList } from './components/RepostioryList.jsx';
+import { RepositoryList } from './components/RepositoryList';
 
 import './styles/global.scss';
 
