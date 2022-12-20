@@ -11,7 +11,9 @@
         "allowSyntheticDefaultImports": true,
         "esModuleInterop": true,
         "skipLibCheck": true,
-        "forceConsistentCasingInFileNames": true
+        "forceConsistentCasingInFileNames": true,
+        "typeRoots": ["./src/@types", "./node_modules/@types"],
     },
-    "include": ["src"]
+    "include": ["./src/**/*", "./test-utils/**/*", "./__mocks__/**/*"],
+    "exclude": ["node_modules"]
 }

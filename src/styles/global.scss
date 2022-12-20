@@ -1,3 +1,16 @@
+:root {
+    --background: #f0f2f5;
+    --input-background: #e7e9ee;
+    --shape: #fff;
+    --text-title: #363F5F;
+    --text-body: #969CB2;
+    --border: #d7d7d7;
+    --red: #E52E4D;
+    --green: #33CC95;
+    --blue: #5429CC;
+    --blue-light: #6933FF;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,7 +18,37 @@
     list-style: none;
 }
 
-body {
-    font-family: 'Helvetica Neue', 'Arial', sans-serif;
-    color: #121214;
+html {
+    @media screen and (min-width: 1024px) {
+        font-size: 93.80%;
+    }
+    @media screen and (min-width: 768px) and (max-width: 1023px) {
+        font-size: 87.50%;
+    }
+    @media screen and (max-width: 767px) {
+        font-size: 81.30%;
+    }
+}
+
+body { 
+    background-color: var(--background);
+    -webkit-font-smoothing:antialiased;
+}
+
+body, input, textarea, button {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+}
+
+button {
+    cursor: pointer;
+}
+
+[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
 }

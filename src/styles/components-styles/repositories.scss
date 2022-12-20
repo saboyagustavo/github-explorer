@@ -9,12 +9,6 @@ section.repository-list {
         & + li {
             margin-top: 1.25rem;
         }
-        /*  ---- another way to remove the margin-bottom overflow on last element;
-       margin-bottom: 1.25rem;
-
-        &:last-child {
-            margin: 0;
-        } -------------------------------------------------------------------- */
 
         p {
             font-size: 0.875rem;
