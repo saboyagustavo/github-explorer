@@ -1,10 +1,26 @@
+import { HeaderProps } from '../@types/components';
+import '../styles/components-styles/header.scss';
 import logo  from '../assets/images/Logo.svg';
-export function Header() {
+import arrowLeft from '../assets/images/ArrowLeft.svg';
+
+export function Header({ homePage } : HeaderProps) {
   return (
-    <>
-      <header>
-        <img src={logo} alt="app logo: a compass icon followed by github_explorer" />
-      </header>
-    </>
+    <header className="header-container">
+      <div className="header-content">
+        <img 
+          id="logo" 
+          src={logo} 
+          alt="app logo: a compass icon followed by github_explorer"
+          draggable="false"
+        />
+
+        {!homePage && (
+          <button>
+            <img src={arrowLeft} alt="arrow to the left" draggable="false"/>
+            Back
+          </button>
+        )}
+      </div>
+    </header>
   );   
 }

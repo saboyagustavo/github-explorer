@@ -1,0 +1,40 @@
+header.header-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 3.5rem;
+
+  .header-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  img#logo {
+    width: 10rem;
+    height: 2rem;
+  }
+
+  button {
+    background: transparent;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 4rem;
+    border: none;
+    outline: none;
+   
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--text-subtle);
+
+    transition: filter 0.25s ease;
+
+    &:hover, &:focus {
+      filter: brightness(0.8);
+    }
+  }
+}
