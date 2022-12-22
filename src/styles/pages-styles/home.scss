@@ -39,14 +39,13 @@ main.home-main-content {
   color: var(--shape);
   font-size: 1.125rem;
   font-weight: 700;
+  outline: none;
   transition: all ease 0.25s;
-  &:hover {
+  
+  &:hover,
+  &:focus, 
+  &:focus-visible {
     filter: brightness(1.05);
-  }
-
-  &:focus, &:focus-visible {
-    filter: brightness(1.05);
-    outline: var(--text-subtle) solid 1px;
   }
 }
 
@@ -58,11 +57,8 @@ main.home-main-content {
   border: none;
   border-radius: 5px 0 0 5px;
   line-height: 1.438rem;
-  transition: all ease 0.4s;
-  
-  &:focus-visible {
-    outline: var( --text-subtle) solid 1px;
-  }
+  transition: all ease 0.1s;
+  outline: none;
 
   &::placeholder {
     color: var(--text-subtle)
