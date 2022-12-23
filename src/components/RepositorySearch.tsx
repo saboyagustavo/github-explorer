@@ -1,5 +1,5 @@
 import { FormEvent, useState } from 'react';
-import { useRepositories } from '../hooks/useRepos';
+import { useRepositories } from '../hooks/useRepositories';
 
 import '../styles/components-styles/repositorySearch.scss';
 

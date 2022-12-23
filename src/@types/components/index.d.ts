@@ -1,3 +1,8 @@
+interface AvatarProps {
+  username: string;
+  profileImg?: string;
+}
+
 export interface HeaderProps {
   homePage?: boolean;
 }
@@ -8,12 +13,13 @@ interface Repository {
   full_name: string;
   description: string;
   html_url: string;
+  owner: {
+    avatar_url: string;
+    html_url: string;
+    login: string;
+  };     
 }
 
 interface RepositoryItemProps {
-	repository: {
-		name: string;
-		description: string;
-		html_url: string;
-	};
+	repository: Repository;
 }

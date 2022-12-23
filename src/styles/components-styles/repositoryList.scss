@@ -1,0 +1,32 @@
+section.repository-list {
+	direction: rtl;
+	margin: 2rem 0;
+	background: var(--background);
+	overflow-y: auto;
+	max-height: 64vh;
+	
+	@media screen and (max-width: 1240px) {
+		max-height: 42vh;
+	}
+	
+	&::-webkit-scrollbar {
+    width: 0.625rem;
+  }
+
+  &::-webkit-scrollbar-track {
+    background-color: var(--background);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: var(--elements);
+    border-radius: 3px;
+  }
+	
+	ul {
+		padding-left: 0.625rem;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		direction: ltr;
+	}
+}

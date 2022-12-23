@@ -1,5 +1,5 @@
 import { Header } from '../components/Header';
-import { RepositoriesProvider } from '../hooks/useRepos';
+import { RepositoriesProvider } from '../hooks/useRepositories';
 import { RepositorySearch } from '../components/RepositorySearch';
 import { RepositoryList } from '../components/RepositoryList';
 

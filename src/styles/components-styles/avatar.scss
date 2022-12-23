@@ -1,0 +1,28 @@
+.avatar-round-wrapper {
+  background-color: var(--element);
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  min-height: 1.5rem;
+  height: 1.5rem;
+
+  min-width: 1.5rem;
+  width: 1.5rem;
+  
+  border-radius: 100%;
+  border: 1px solid var(--text-subtle);
+  
+  font-family: 'Fira Code', monospace;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-align: center;
+  color: var(--text-subtle);
+}
+
+.avatar-round-image {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+}
