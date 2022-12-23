@@ -1,17 +1,16 @@
+import { useRepositories } from '../hooks/useRepos';
 import { RepositoryItem } from './RepositoryItem';
-import { useRepos } from '../hooks/useRepos';
-import '../styles/repositories.scss';
+
+import '../styles/components-styles/repositories.scss';
 
 export function RepositoryList() {
-    const { repositories } = useRepos();
-    return (
-        <section className="repository-list">
-            <h1>Repositories List</h1>
-            <ul>
-                {repositories.map((repository: any) => {
-                    return <RepositoryItem key={repository.name} repository={repository} />;
-                })}
-            </ul>
-        </section>
-    );
+	const { repositories } = useRepositories();
+	return (
+		<section className="repository-list">
+			<h1>Repositories List</h1>
+			<ul>
+				{repositories.map((repository) => (<RepositoryItem key={repository.id} repository={repository} />))}
+			</ul>
+		</section>
+	);
 }
