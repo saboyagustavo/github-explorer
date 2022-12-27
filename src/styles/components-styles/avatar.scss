@@ -1,4 +1,4 @@
-.avatar-round-wrapper {
+span.avatar-round-wrapper {
   background-color: var(--element);
   
   display: flex;
@@ -21,7 +21,7 @@
   color: var(--text-subtle);
 }
 
-.avatar-round-image {
+img.avatar-round-image {
   width: 5rem;
   height: 5rem;
   border-radius: 100%;

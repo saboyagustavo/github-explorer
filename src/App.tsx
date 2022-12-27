@@ -1,11 +1,11 @@
-import { Home } from './pages/Home';
+import { AppRoutes } from './AppRoutes';
 
 import './styles/global.scss';
 
 export function App() {
     return (
         <>
-            <Home />
+            <AppRoutes />
         </>
     );
 }
